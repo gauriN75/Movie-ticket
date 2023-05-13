@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Ticket Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Ticket Booking</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="now-showing.html">Now Showing</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Select a Movie and Seats</h2>
+      <form>
+        <label for="movies">Choose a movie:</label>
+        <select id="movies" name="movies">
+          <option value="movie1">Movie 1</option>
+          <option value="movie2">Movie 2</option>
+          <option value="movie3">Movie 3</option>
+        </select>
+        <br>
+        <label for="seats">Choose your seats:</label>
+        <div id="seats">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <br>
+        <input type="submit" value="Book Now">
+      </form>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,236 @@
+/* Global styles
+
+* {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    
+    section {
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    label {
+      margin-bottom: 10px;
+    }
+    
+    select {
+      margin-bottom: 20px;
+      padding: 5px;
+      font-size: 16px;
+    }
+    
+    #seats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .seat {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    
+    .seat.selected {
+      background-color: #ffc107;
+    }
+    
+    input[type="submit"] {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #ffc107;
+      color: #333;
+    }     */
+
+
+
+
+
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    
+    section {
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    label {
+      margin-bottom: 10px;
+    }
+    
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #555;
+    }
+    
+    .movie-select {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .movie-select img {
+      width: 150px;
+      height: 200px;
+      margin-right: 20px;
+    }
+    
+    .movie-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .movie-info h3 {
+      margin-top: 0;
+    }
+    
+    .seating {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .seat {
+      background-color: #ddd;
+      border: none;
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    
+    .seat.booked {
+      background-color: #f00;
+      cursor: default;
+    }
+    
+    .seat.selected {
+      background-color: #00f;
+    }
+    
+    .seat:hover {
+      background-color: #ccc;
+    }
+    
